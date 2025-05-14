@@ -6,7 +6,7 @@ Version: 1.0.1
 Author: Promsters
 */
 
-add_shortcode('produkty_filter', function() {
+add_shortcode('filtrproduktow', function() {
     $search = isset($_GET['szukaj']) ? esc_attr($_GET['szukaj']) : '';
     $sortuj = isset($_GET['sortuj']) ? esc_attr($_GET['sortuj']) : '';
     $kategoria = isset($_GET['kategoria']) ? esc_attr($_GET['kategoria']) : '';
